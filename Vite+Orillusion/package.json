@@ -1,0 +1,19 @@
+{
+  "name": "vite-orillusion",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "@orillusion/core": "^0.5.0",
+    "less": "^4.1.3"
+  }
+}
